@@ -1,0 +1,21 @@
+{
+  "name": "simple-login-express-mongo-backend",
+  "version": "1.0.0",
+  "description": "Backend for Simple login with Express and MongoDB Atlas",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "mongoose": "^8.6.0"
+  }
+}
+
+
